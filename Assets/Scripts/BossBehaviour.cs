@@ -116,10 +116,11 @@ public class BossBehaviour : MonoBehaviour
                 if (debugging) Debug.Log($"{gameObject} did Shotgun");
                 StartCoroutine(ShotgunAttack());
                 break;
-            case HiveMind.AttackType.Tesla :
+            //Didn't have time to implement this attack
+            /*case HiveMind.AttackType.Tesla :
                 if (debugging) Debug.Log($"{gameObject} did Tesla");
                 StartCoroutine(TeslaAttack());
-                break;
+                break;*/
         }
     }
 
